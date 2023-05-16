@@ -11,8 +11,11 @@ This package provides tools to solve linear elliptic PDEs with Dirichlet and Neu
 We will for the example solve the most generic linear elliptic PDE, with both Dirichlet and Neumann boundary conditions :
 
 $$\Delta u(x) = f(x) \quad \forall x\in \Omega$$
+
 $$u(x) = g(x) \quad \forall x \in \partial \Omega _D$$
+
 $$\frac{\partial u(x)}{\partial n}  = h(x) \quad \forall x\in \partial \Omega _N$$
+
 
 ```julia
 using ReverseWoS
