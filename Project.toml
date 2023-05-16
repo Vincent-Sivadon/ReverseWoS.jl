@@ -2,3 +2,9 @@ name = "ReverseWoS"
 uuid = "199fe74c-932e-4d4f-8c85-e44e4c34ca23"
 authors = ["Vincent-Sivadon <vincent.sivadon@laposte.net>"]
 version = "0.1.0"
+
+[deps]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
