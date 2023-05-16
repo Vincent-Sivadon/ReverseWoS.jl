@@ -1,0 +1,4 @@
+name = "ReverseWoS"
+uuid = "199fe74c-932e-4d4f-8c85-e44e4c34ca23"
+authors = ["Vincent-Sivadon <vincent.sivadon@laposte.net>"]
+version = "0.1.0"
